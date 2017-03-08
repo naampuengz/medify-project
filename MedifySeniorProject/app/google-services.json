@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "553265300026",
+    "firebase_url": "https://medifyseniorproject.firebaseio.com",
+    "project_id": "medifyseniorproject",
+    "storage_bucket": "medifyseniorproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553265300026:android:1e834609d8ebd57d",
+        "android_client_info": {
+          "package_name": "com.example.airy.medifyseniorproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553265300026-naal6ig4aophgpiuk73n0kom2l27eqdv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.airy.medifyseniorproject",
+            "certificate_hash": "be67c33720d83c682527e4808f427c64759b1376"
+          }
+        },
+        {
+          "client_id": "553265300026-ies0os58gbh1eueatqvoia57kdq83ggk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7BJdD8FF1cRuMuBlcrlg5pmFcc8Gl9II"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553265300026-ies0os58gbh1eueatqvoia57kdq83ggk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
