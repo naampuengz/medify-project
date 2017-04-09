@@ -5,7 +5,7 @@
         An Ionic Framework and Cordova project.
     </description>
   <author email="boonyaporn.n@ku.th" href="http://example.com/">
-      Boonyaporn & Narumon
+      Boonyaporn and Narumon
     </author>
   <content src="index.html"/>
   <access origin="*"/>
