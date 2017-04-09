@@ -2,6 +2,15 @@
   <ion-content padding="true" class="has-header">
     <form id="page13-form12" class="list">
       <ion-toggle toggle-class="toggle-positive" id="page13-toggle3">การแจ้งเตือน</ion-toggle>
+      <label class="item item-select" id="page13-select7">
+        <span class="input-label">ระยะห่างยาก่อน/หลังอาหาร</span>
+        <select>
+          <option>20 นาที</option>
+          <option>30 นาที</option>
+          <option>40 นาที</option>
+          <option>60 นาที</option>
+        </select>
+      </label>
       <label class="item item-select" id="page13-select6">
         <span class="input-label">ระยะเวลาที่กดรับยาได้ (+/-)</span>
         <select>
@@ -12,6 +21,34 @@
           <option>30 นาที</option>
         </select>
       </label>
+    </form>
+    <div id="page13-markdown11" class="show-list-numbers-and-dots">
+      <p style="color:#000000;">มื้อเช้า</p>
+    </div>
+    <form id="page13-form13" class="list">
+      <label class="item item-input" id="page13-input17">
+        <span class="input-label">เวลา</span>
+        <input type="time" placeholder="">
+      </label>
+    </form>
+    <div id="page13-markdown12" class="show-list-numbers-and-dots">
+      <p style="color:#000000;">มือกลางวัน</p>
+    </div>
+    <form id="page13-form16" class="list">
+      <label class="item item-input" id="page13-input18">
+        <span class="input-label">เวลา</span>
+        <input type="time" placeholder="">
+      </label>
+    </form>
+    <div id="page13-markdown13" class="show-list-numbers-and-dots">
+      <p style="color:#000000;">มือเย็น</p>
+    </div>
+    <form id="page13-form17" class="list">
+      <label class="item item-input" id="page13-input19">
+        <span class="input-label">เวลา</span>
+        <input type="time" placeholder="">
+      </label>
+      <a ui-sref="page15" id="page13-button9" class="button button-assertive  button-block">บันทึก</a>
     </form>
   </ion-content>
 </ion-view>

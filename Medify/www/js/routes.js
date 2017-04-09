@@ -17,60 +17,66 @@ angular.module('app.routes', [])
   })
 
   .state('page5', {
-    url: '/page5',
+    url: '/login_page',
     templateUrl: 'templates/page5.html',
     controller: 'page5Ctrl'
   })
 
   .state('page6', {
-    url: '/page6',
+    url: '/appoitment_summary_page',
     templateUrl: 'templates/page6.html',
     controller: 'page6Ctrl'
   })
 
   .state('page7', {
-    url: '/page7',
+    url: '/manage_medicine_page',
     templateUrl: 'templates/page7.html',
     controller: 'page7Ctrl'
   })
 
   .state('page8', {
-    url: '/page8',
+    url: '/reister_page',
     templateUrl: 'templates/page8.html',
     controller: 'page8Ctrl'
   })
 
   .state('page10', {
-    url: '/page10',
+    url: '/list_medicine_page',
     templateUrl: 'templates/page10.html',
     controller: 'page10Ctrl'
   })
 
   .state('page9', {
-    url: '/page9',
+    url: '/add_appointment_page',
     templateUrl: 'templates/page9.html',
     controller: 'page9Ctrl'
   })
 
   .state('page11', {
-    url: '/page11',
+    url: '/history_page',
     templateUrl: 'templates/page11.html',
     controller: 'page11Ctrl'
   })
 
   .state('page12', {
-    url: '/page12',
+    url: '/connect_device_page',
     templateUrl: 'templates/page12.html',
     controller: 'page12Ctrl'
   })
 
   .state('page13', {
-    url: '/page13',
+    url: '/setting_page',
     templateUrl: 'templates/page13.html',
     controller: 'page13Ctrl'
   })
 
-$urlRouterProvider.otherwise('/page1/page6')
+  .state('page15', {
+    url: '/first_page',
+    templateUrl: 'templates/page15.html',
+    controller: 'page15Ctrl'
+  })
+
+$urlRouterProvider.otherwise('/login_page')
 
   
 
