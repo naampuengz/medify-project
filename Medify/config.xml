@@ -5,7 +5,11 @@
         An Ionic Framework and Cordova project.
     </description>
   <author email="boonyaporn.n@ku.th" href="http://example.com/">
+<<<<<<< HEAD
       Boonyaporn and Narumon
+=======
+      Boonyaporn Narumon
+>>>>>>> c527ca2436aa1c5433bd0e08fe67dcfa9e129b1c
     </author>
   <content src="index.html"/>
   <access origin="*"/>
